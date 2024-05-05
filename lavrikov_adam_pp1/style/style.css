@@ -1,0 +1,200 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color:#353232;
+    box-shadow: rgba(41,36,36,0.469) 0px 4px 12px;
+    position: relative;
+}
+
+img{
+    max-width: 210px;
+}
+
+main{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+header .wrapper{
+    margin: auto;
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+video{
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    background-color: #353232;
+}
+
+.logo{
+    max-width: 120px;
+    height: 120px;
+}
+
+.text1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+.text1{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-right: 6px;
+    justify-content: space-between;
+}
+
+.ikony img{
+    max-width: 50px;
+}
+
+.ikony{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+footer{
+    background-color: #353232;
+    padding: 50px;
+    box-shadow: rgba(41,36,36,0.469) 1px 0px 15px;
+    position: relative;
+}
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+}
+
+.odkazy a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.odkazy {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    border-bottom: 1px solid white;
+    word-spacing: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 1000px;
+    color: aliceblue;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    display: flex;
+    color: aliceblue;
+    margin: 8px;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nadpisxd{
+    text-align: center;
+}
+
+     #banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        background-color: #353232;
+    }
+
+    .video-container {
+        margin: 0 20px;
+        position: relative;
+    }
+
+    .video-container img {
+        width: 730px;
+        max-width: 1300px;
+        height: 730px;
+        cursor: pointer;
+    }
+
+    .video-container .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    .video-container:hover .overlay {
+        opacity: 1;
+    }
+
+    .video-container .overlay a {
+        color: #353232;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+@media only screen and (min-width: 768px) {
+    video {
+      width: auto;
+      height: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    video {
+      width: 1900px;    
+      height: auto;
+    }
+}
+
+.cenik{
+    color: white;
+    max-width: 1300px;
+    width: 1000px;
+    height: 525px;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nadpiskontakt{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
